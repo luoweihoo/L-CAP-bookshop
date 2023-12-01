@@ -11,9 +11,15 @@
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
+    "@sap/ux-specification": "^1.96.52",
     "sqlite3": "^5.1.6"
   },
   "scripts": {
-    "start": "cds-serve"
-  }
+    "start": "cds-serve",
+    "watch-books": "cds watch --open books/webapp/index.html?sap-ui-xx-viewCache=false"
+  },
+  "sapux": [
+    "app/books",
+    "app/books"
+  ]
 }
