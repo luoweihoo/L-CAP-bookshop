@@ -1,4 +1,4 @@
 specVersion: "2.5"
 metadata:
-  name: cap.bookshop.books
+  name: cap.books.browse.browsebooks
 type: application

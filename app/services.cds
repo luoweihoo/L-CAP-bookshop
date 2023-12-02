@@ -1,2 +1,4 @@
 
-using from './books/annotations';
+using from './managebooks/annotations';
+
+using from './browsebooks/annotations';

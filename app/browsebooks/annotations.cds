@@ -4,27 +4,27 @@ annotate service.Books with @(
     UI.LineItem : [
         {
             $Type : 'UI.DataField',
-            Label : 'ID',
+            Label : 'Book ID',
             Value : ID,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'title',
+            Label : 'Title',
             Value : title,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'descr',
+            Label : 'Description',
             Value : descr,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'author',
+            Label : 'Author',
             Value : author,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'genre_ID',
+            Label : 'Genre',
             Value : genre_ID,
         },
     ]

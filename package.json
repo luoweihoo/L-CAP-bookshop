@@ -11,15 +11,19 @@
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
-    "@sap/ux-specification": "^1.96.52",
+    "@sap/ux-specification": "^1.120.0",
     "sqlite3": "^5.1.6"
   },
   "scripts": {
     "start": "cds-serve",
-    "watch-books": "cds watch --open books/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-books": "cds watch --open books/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-managebooks": "cds watch --open managebooks/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-browsebooks": "cds watch --open browsebooks/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "sapux": [
     "app/books",
-    "app/books"
+    "app/books",
+    "app/managebooks",
+    "app/browsebooks"
   ]
 }
